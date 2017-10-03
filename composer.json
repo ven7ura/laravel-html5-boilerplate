@@ -1,0 +1,13 @@
+{
+    "name": "ven7ura/laravel-html5-boilerplate",
+    "description": "HTML5 Boilerplate template integrated with Laravel.",
+    "type": "template",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "J. C. Ventura",
+            "email": "jventura00@gmail.com"
+        }
+    ],
+    "require": {}
+}
