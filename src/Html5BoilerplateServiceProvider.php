@@ -6,7 +6,7 @@ use Illuminate\Support\ServiceProvider;
 class Html5Boilerplate extends ServiceProvider
 {
     /**
-    / Publish the plugin configuration
+    * Publish the plugin configuration
     **/
     public function boot()
     {
