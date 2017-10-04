@@ -15,7 +15,7 @@ class Html5BoilerplateServiceProvider extends ServiceProvider
         ], 'config');
 
         $this->publishes([
-            __DIR__.'/views' => resource_path('views');
+            __DIR__.'/views' => resource_path('views')
         ], 'views');
     }
 }
