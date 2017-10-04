@@ -10,9 +10,7 @@
             "email": "jventura00@yahoo.com"
         }
     ],
-    "require": {
-        "laravel/framework": "^5.4.0"
-    },
+    "require": {},
     "extra": {
         "laravel": {
             "providers": [
