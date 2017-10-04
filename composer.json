@@ -12,5 +12,13 @@
     ],
     "require": {
         "laravel/framework": "^5.4.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ven7ura\\Html5BoilerplateServiceProvider"
+            ]
+        }
     }
+
 }
