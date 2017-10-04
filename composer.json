@@ -1,13 +1,16 @@
 {
     "name": "ven7ura/laravel-html5-boilerplate",
-    "description": "HTML5 Boilerplate template integrated with Laravel.",
     "type": "template",
+    "description": "HTML5 Boilerplate template integrate to Laravel.",
+    "keywords": ["template", "html5", "boilerplate", "layout"],
     "license": "MIT",
     "authors": [
         {
             "name": "J. C. Ventura",
-            "email": "jventura00@gmail.com"
+            "email": "jventura00@yahoo.com"
         }
     ],
-    "require": {}
+    "require": {
+        "laravel/framework": "^5.4.0"
+    }
 }
