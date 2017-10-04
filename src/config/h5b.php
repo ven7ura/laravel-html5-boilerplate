@@ -13,13 +13,13 @@ return [
      * this path is relative to the public folder.
      * eg. 'img/icon.png' or asset('img/icon.png')
      **/
-    'appleicon' => 'icon.png'
+    'appleicon' => 'icon.png',
 
     /**
      * Add your site's ID Google Analitics
      * services to your application.
      **/
-    'ga' => 'UA-XXXXX-Y'
+    'ga' => 'UA-XXXXX-Y',
 
     /**
      * NOTE -----------------------------------------------------------------
@@ -36,6 +36,13 @@ return [
      * ----------------------------------------------------------------------
      **/
 
+    /**
+     * This config value will load all the necesary files to load
+     * Bootstrap4 into the application. This value mut be either
+     * true or false.
+     **/
+    'bootstrap4' => true,
+
 
     /**
      * Set the version of modernizr that will be
@@ -43,7 +50,7 @@ return [
      * the minified version of the library.
      * -- The versions can be found in: https://cdnjs.com/libraries/modernizr
      **/
-    'modernizr' => '2.8.3'
+    'modernizr' => '2.8.3',
 
     /**
      * Set the version of jquery that will be used
@@ -51,7 +58,7 @@ return [
      * minified version of the library.
      * -- The versions and integrity can be found in: https://code.jquery.com
      **/
-    'jquery' => '3.2.1'
-    'jqueryhash' => 'sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4='
+    'jquery' => '3.2.1',
+    'jqueryhash' => 'sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=',
 
 ];
