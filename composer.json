@@ -1,7 +1,7 @@
 {
     "name": "ven7ura/laravel-html5-boilerplate",
     "type": "template",
-    "description": "HTML5 Boilerplate template integrate to Laravel.",
+    "description": "HTML5 Boilerplate template integrated to Laravel.",
     "keywords": ["template", "html5", "boilerplate", "layout"],
     "license": "MIT",
     "authors": [
