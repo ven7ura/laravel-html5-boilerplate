@@ -1,64 +1,87 @@
 <?php
 
 return [
-    /**
-     * Set your path to the manifest json file this
-     * path is relative to the public foler.
-     * eg. 'manifest.json' or asset('manifest.json')
-     **/
+    /*
+    |--------------------------------------------------------------------------
+    | Manifest
+    |--------------------------------------------------------------------------
+    |
+    | Set this value to the name of the file that contains
+    | all manifest info of your application.
+    |
+    | This path is relative to the public folder.
+    |
+    */
     'manifest' => 'site.manifest',
 
-    /**
-     * Set the path to the apple-touch-icon image png
-     * this path is relative to the public folder.
-     * eg. 'img/icon.png' or asset('img/icon.png')
-     **/
+    /*
+    |--------------------------------------------------------------------------
+    | Apple Icon
+    |--------------------------------------------------------------------------
+    |
+    | Set this value to the name of the image that will be
+    | used for apple-touch-icon. This path is realtive
+    | to the public folder.
+    |
+    | Example: 'img/icon.png' or asset('img/icon.png')
+    |
+    */
     'appleicon' => 'icon.png',
 
-    /**
-     * Add your site's ID Google Analitics
-     * services to your application.
-     **/
-    'ga' => 'UA-XXXXX-Y',
+    /*
+    |--------------------------------------------------------------------------
+    | Google Analitics
+    |--------------------------------------------------------------------------
+    |
+    | Set this value to the site's ID of the analitics
+    | service that Google provides.
+    |
+    | Example: 'UA-XXXXX-Y'
+    |
+    */
+    'ga' => false,
 
-    /**
-     * NOTE -----------------------------------------------------------------
-     * Below are config values that bootstrap your application and have as  |
-     * many tools as possible and start working as soon as possible, but    |
-     * Laravel has included libraries and packages such as webpack and      |
-     * integration with CSS extensions that can make your application       |
-     * have a better performance and create less overhead to the            |
-     * HTTP requests by loading less files.                                 |
-     *                                                                      |
-     * To remove the usage of a library just COMMENT the line where you set |
-     * the config value. The view checks if there is such a value and       |
-     * if FALSE the loading will not occur.                                 |
-     * ----------------------------------------------------------------------
-     **/
-
-    /**
-     * This config value will load all the necesary files to load
-     * Bootstrap4 into the application. This value mut be either
-     * true or false.
-     **/
+    /*
+    |--------------------------------------------------------------------------
+    | Bootstrap
+    |--------------------------------------------------------------------------
+    |
+    | Set this value if you want to load all necessary files
+    | to add the latest bootstrap version to your app.
+    | This value can be either true or false.
+    |
+    */
     'bootstrap4' => true,
 
 
-    /**
-     * Set the version of modernizr that will be
-     * used in this application. This imports
-     * the minified version of the library.
-     * -- The versions can be found in: https://cdnjs.com/libraries/modernizr
-     **/
-    'modernizr' => '2.8.3',
+    /*
+    |--------------------------------------------------------------------------
+    | Modernizr
+    |--------------------------------------------------------------------------
+    |
+    | Set these values to load the Modernizr library for HTML5
+    | and CSS3.
+    |
+    | The versions can be found in: https://cdnjs.com/libraries/modernizr    |
+    |
+    */
+    'modernizr' => true,
+    'modernizr_version' => '2.8.3',
 
-    /**
-     * Set the version of jquery that will be used
-     * in this application. This imports the
-     * minified version of the library.
-     * -- The versions and integrity can be found in: https://code.jquery.com
-     **/
-    'jquery' => '3.2.1',
-    'jqueryhash' => 'sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=',
+    /*
+    |--------------------------------------------------------------------------
+    | JQuery
+    |--------------------------------------------------------------------------
+    |
+    | Set these values to load JQuery in your application. If you
+    | load bootstrap, this library will be automatically loaded
+    | even if you set to load jquery to FALSE.
+    |
+    | The versions and integrities can be found in: http://code.jquery.com
+    |
+    */
+    'jquery' => true,
+    'jquery_version' => '3.2.1',
+    'jquery_integrity' => 'sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=',
 
 ];

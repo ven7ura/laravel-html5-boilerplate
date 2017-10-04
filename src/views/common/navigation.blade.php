@@ -1,3 +1,3 @@
-<div class="container">
-    Navigation content - To disable, comment the line where this view is included in the 'layout/body.blade.php' file.
-</div>
+<nav class="navbar navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">{{ config('app.name') }}</a>
+</nav>
