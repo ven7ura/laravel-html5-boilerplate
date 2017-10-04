@@ -1,3 +1,5 @@
-<div class="container">
-    Footer content - To disable, comment the line where this view is included in the 'layout/body.blade.php'
-</div>
+<footer style="position: absolute; bottom: 0; width: 100%; height: 60px; line-height: 60px; background-color: #f5f5f5">
+    <div class="container">
+        &copy; 2017 All rights reserved.
+    </div>
+</footer>
