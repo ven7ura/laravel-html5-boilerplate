@@ -10,5 +10,12 @@ class Html5Boilerplate extends ServiceProvider
     **/
     public function boot()
     {
+        $this->publishes([
+            __DIR__.'/config/h5b.php' => config_path('h5b.php')
+        ], 'config');
+
+        $this->publishes([
+            __DIR__.'/views' => resource_path('views');
+        ]);
     }
 }
