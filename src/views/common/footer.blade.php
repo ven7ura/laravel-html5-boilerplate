@@ -1,1 +1,3 @@
-Footer content - To disable comment the line where this view is included in the 'layout/body.blade.php'
+<div class="container">
+    Footer content - To disable, comment the line where this view is included in the 'layout/body.blade.php'
+</div>
