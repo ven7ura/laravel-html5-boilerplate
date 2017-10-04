@@ -11,6 +11,11 @@
         }
     ],
     "require": {},
+    "autoload": {
+        "psr-4": {
+            "Ven7ura\\Html5Boilerplate\\": "src/"
+        }
+    },
     "extra": {
         "laravel": {
             "providers": [
