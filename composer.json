@@ -14,7 +14,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Ven7ura\\Html5BoilerplateServiceProvider"
+                "Ven7ura\\Html5Boilerplate\\Html5BoilerplateServiceProvider"
             ]
         }
     }
