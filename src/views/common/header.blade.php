@@ -1,8 +1,6 @@
-<section class="header jumbotron text-center">
-    <div class="container">
-        <h1 class="jumbotron-heading">Laravel HTML5 Boilerplate</h1>
-        <p class="lead text-muted">
-            A professional front-end template for building fast, robust, and adaptable web apps or sites.
+<section style="margin-top: 10px;">
+        <p>
+            <h1>Header content...</h1>
+            A professional front-end template for building fast, robust, and adaptable web apps or sites using Blade Template and Laravel.
         </p>
-    </div>
 </section>

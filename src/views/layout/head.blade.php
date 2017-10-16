@@ -16,8 +16,5 @@
 @show
 
 @section('styles')
-    @if(config('h5b.bootstrap4'))
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-    @endif
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 @show
