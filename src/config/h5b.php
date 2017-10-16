@@ -40,19 +40,7 @@ return [
     |
     */
     'ga' => false,
-
-    /*
-    |--------------------------------------------------------------------------
-    | Bootstrap
-    |--------------------------------------------------------------------------
-    |
-    | Set this value if you want to load all necessary files
-    | to add the latest bootstrap version to your app.
-    | This value can be either true or false.
-    |
-    */
-    'bootstrap4' => true,
-
+    'ga_id' => 'UA-XXXXX-Y',
 
     /*
     |--------------------------------------------------------------------------
