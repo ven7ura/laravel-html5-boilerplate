@@ -31,7 +31,7 @@ You will now have two new folders in the views folder, each with new files with 
     + master.blade.php
     + tail.blade.php
 
-###Structure in detail
+### Structure in detail
 
 The **common** folder contains the files that are reusable throughout the template. You may of course remove any unnecessary files and be sure to remove the import at the *body.blade.php* file.
 
