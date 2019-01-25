@@ -7,12 +7,14 @@ return [
     |--------------------------------------------------------------------------
     |
     | Set this value to the name of the file that contains
-    | all manifest info of your application.
+    | all manifest info of your application. This path   |
+    | is relative to the public folder.
     |
-    | This path is relative to the public folder.
+    | Example: 'site.manifest' or asset('site.manifest')
     |
     */
-    'manifest' => 'site.manifest',
+    'manifest' => false,
+    'manifest_url' => 'site.webmanifest',
 
     /*
     |--------------------------------------------------------------------------
@@ -23,10 +25,11 @@ return [
     | used for apple-touch-icon. This path is realtive
     | to the public folder.
     |
-    | Example: 'img/icon.png' or asset('img/icon.png')
+    | Example: 'img/icon.png' or asset('icon.png')
     |
     */
-    'appleicon' => 'icon.png',
+    'appleicon' => false,
+    'appleicon_url' => asset('icon.png'),
 
     /*
     |--------------------------------------------------------------------------
@@ -42,19 +45,6 @@ return [
     'ga' => false,
     'ga_id' => 'UA-XXXXX-Y',
 
-    /*
-    |--------------------------------------------------------------------------
-    | Modernizr
-    |--------------------------------------------------------------------------
-    |
-    | Set these values to load the Modernizr library for HTML5
-    | and CSS3.
-    |
-    | The versions can be found in: https://cdnjs.com/libraries/modernizr    |
-    |
-    */
-    'modernizr' => true,
-    'modernizr_version' => '2.8.3',
 
     /*
     |--------------------------------------------------------------------------
@@ -69,7 +59,7 @@ return [
     |
     */
     'jquery' => true,
-    'jquery_version' => '3.2.1',
-    'jquery_integrity' => 'sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=',
+    'jquery_version' => '3.3.1',
+    'jquery_integrity' => 'sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=',
 
 ];
