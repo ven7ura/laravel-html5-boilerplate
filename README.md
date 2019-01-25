@@ -50,7 +50,7 @@ After publishing the files, there will be a file named `h5b.php` in your `config
 + The `manifest` value is relative to the *public* folder. Once you have that file ready you can set the path OR set it to `false` to remove the loading of a manifest file.
 + `appleicon` has the same configuration as manifest in that is relative to the *public* folder and can be set to `false` if not used by your application.
 + You can set Google Analytics by setting the `ga` value to `true` and by setting your `ga_id`.
-+ Modernizr and jQuery are used by default in HTML5 Boilerplate project, so they are included here. It's best if you compile and use the tools provided by laravel to have only one CSS  and JS files. These options are to bootstrap your application.
++ jQuery are used by default in HTML5 Boilerplate project, so they are included here. It's best if you compile and use the tools provided by laravel to have only one CSS  and JS files. These options are to bootstrap your application.
 
 
 The `body.blade.php` file in the *layout* folder should only import the `common` files you are going to use. Simply remove unused ones.
@@ -83,7 +83,6 @@ In the `head.blade.php` you will find a section called `styles`. With the blade 
     @parent
 
     <link rel="stylesheet" href="{{ asset('css/anotherfile.css') }}">
-
 @endsection
 ```
 
