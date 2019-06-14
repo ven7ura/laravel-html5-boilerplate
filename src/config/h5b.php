@@ -25,11 +25,11 @@ return [
     | used for apple-touch-icon. This path is realtive
     | to the public folder.
     |
-    | Example: 'img/icon.png' or asset('icon.png')
+    | Example: 'img/icon.png'
     |
     */
     'appleicon' => false,
-    'appleicon_url' => asset('icon.png'),
+    'appleicon_url' => 'img/icon.png',
 
     /*
     |--------------------------------------------------------------------------
